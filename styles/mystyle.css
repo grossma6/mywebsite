@@ -4,3 +4,11 @@
 * {
 font-family:Arial, Helvetica, sans-serif;
 }
+
+body
+{
+background-color:#EFEFD1;
+margin-bottom:100px;
+margin-right:100px;
+margin-left:100px;
+}
