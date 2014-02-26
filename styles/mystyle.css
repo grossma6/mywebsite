@@ -23,3 +23,7 @@ h1 { text-align: center; margin-top:0; }
 
 a:hover { border-style:solid;
 border-color:#98bf21;}
+
+li {
+    list-style-type:none;
+}
