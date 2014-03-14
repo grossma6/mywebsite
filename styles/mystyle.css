@@ -41,17 +41,17 @@ a.portfolio {
 a.resume {
     position: absolute;
     top: 170px; /* or whatever the vertical pixel position is above the canvas */
-    left: 500px; /* or whatever the horizontal pixel position is above the canvas */
+    left: 495px; /* or whatever the horizontal pixel position is above the canvas */
 }
 a.contact {
     position: absolute;
-    top: 250px; /* or whatever the vertical pixel position is above the canvas */
-    left: 950px; /* or whatever the horizontal pixel position is above the canvas */
+    top: 300px; /* or whatever the vertical pixel position is above the canvas */
+    left: 975px; /* or whatever the horizontal pixel position is above the canvas */
 }
 a.articles{
     position: absolute;
-    top: 470px; /* or whatever the vertical pixel position is above the canvas */
-    left: 650px; /* or whatever the horizontal pixel position is above the canvas */
+    top: 370px; /* or whatever the vertical pixel position is above the canvas */
+    left: 670px; /* or whatever the horizontal pixel position is above the canvas */
 }
 
 
