@@ -46,7 +46,7 @@ a.resume {
 a.contact {
     position: absolute;
     top: 260px; /* or whatever the vertical pixel position is above the canvas */
-    left: 955px; /* or whatever the horizontal pixel position is above the canvas */
+    left: 960px; /* or whatever the horizontal pixel position is above the canvas */
 }
 a.articles{
     position: absolute;
