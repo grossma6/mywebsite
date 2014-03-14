@@ -37,25 +37,26 @@ a.portfolio {
     position: absolute;
     top: 375px; /* or whatever the vertical pixel position is above the canvas */
     left: 180px; /* or whatever the horizontal pixel position is above the canvas */
+    font-weight:bold;
 }
 a.resume {
     position: absolute;
     top: 170px; /* or whatever the vertical pixel position is above the canvas */
     left: 495px; /* or whatever the horizontal pixel position is above the canvas */
+    font-weight:bold;
 }
 a.contact {
     position: absolute;
     top: 260px; /* or whatever the vertical pixel position is above the canvas */
     left: 960px; /* or whatever the horizontal pixel position is above the canvas */
+    font-weight:bold;
 }
 a.articles{
     position: absolute;
     top: 370px; /* or whatever the vertical pixel position is above the canvas */
     left: 660px; /* or whatever the horizontal pixel position is above the canvas */
+    font-weight:bold;
 }
-
-
-
 
 
 li {
