@@ -33,6 +33,31 @@ h1 { text-align: center; margin-top:0; }
 a:hover { border-style:solid;
 border-color:#98bf21;}
 
+a.portfolio {
+    position: absolute;
+    top: 230px; /* or whatever the vertical pixel position is above the canvas */
+    left: 180px; /* or whatever the horizontal pixel position is above the canvas */
+}
+a.resume {
+    position: absolute;
+    top: 150px; /* or whatever the vertical pixel position is above the canvas */
+    left: 300px; /* or whatever the horizontal pixel position is above the canvas */
+}
+a.contact {
+    position: absolute;
+    top: 130px; /* or whatever the vertical pixel position is above the canvas */
+    left: 180px; /* or whatever the horizontal pixel position is above the canvas */
+}
+a.articles{
+    position: absolute;
+    top: 250px; /* or whatever the vertical pixel position is above the canvas */
+    left: 300px; /* or whatever the horizontal pixel position is above the canvas */
+}
+
+
+
+
+
 li {
     list-style-type:none;
 }
