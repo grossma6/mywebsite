@@ -34,28 +34,28 @@ a:hover { border-style:solid;
 border-color:#98bf21;}
 
 a.portfolio {
-    position: absolute;
+    position: relative;
     top: 375px; /* or whatever the vertical pixel position is above the canvas */
     left: 180px; /* or whatever the horizontal pixel position is above the canvas */
     font-weight:bold;
     color:#ffffff;
 }
 a.resume {
-    position: absolute;
+    position: relative;
     top: 170px; /* or whatever the vertical pixel position is above the canvas */
     left: 495px; /* or whatever the horizontal pixel position is above the canvas */
     font-weight:bold;
     color:#ffffff;
 }
 a.contact {
-    position: absolute;
+    position: relative;
     top: 260px; /* or whatever the vertical pixel position is above the canvas */
     left: 960px; /* or whatever the horizontal pixel position is above the canvas */
     font-weight:bold;
     color:#ffffff;
 }
 a.articles{
-    position: absolute;
+    position: relative;
     top: 370px; /* or whatever the vertical pixel position is above the canvas */
     left: 660px; /* or whatever the horizontal pixel position is above the canvas */
     font-weight:bold;
