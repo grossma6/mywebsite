@@ -12,7 +12,7 @@ return true;
 return false;
 }
 
-$to_email = "grossma6@apps.tcnj.edu"; // put your email address here - this is the address to which the email will be sent
+$to_email = "grossma6@tcnj.edu"; // put your email address here - this is the address to which the email will be sent
 
 // Check if the "from" input field is filled out
 if (isset($_GET["from"]) && validateEmail($_GET["from"])) {
