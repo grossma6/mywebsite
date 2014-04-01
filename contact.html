@@ -1,10 +1,13 @@
-<!doctype html>
-<html> 
+<!DOCTYPE html>
 
+<html lang="en">
 <head>
-<title>Contact Me</title>
+<meta charset="utf-8">
+<title>Feedback Form</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Feedback form for My Site">
+<meta name="author" content="grossma6@tcnj.edu">
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-<link rel="stylesheet" href="./styles/mystyle.css">
 <style>
 /* local styles */
 </style>
@@ -16,14 +19,8 @@
 <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
 <![endif]-->
 </head>
-
 <body>
 <div id="wrapper">
-<h1>Contact Me</h1>
-<p>Thank you for checking out my website. Please contact me to learn more.</p>
-<p><a href="mailto://grossma6@tcnj.edu"> Mail Me</a></p>
-
-<h2>Links</h2>
 <ul>
 
 <li><a href="index.html" title="Back to Main Menu">Main Menu</a></li>
@@ -32,7 +29,21 @@
 <li><a href="portfolio.html" title="Back to My Portfolio">My Portfolio</a></li>
 </ul>
 
-<form action="mailto:grosma6@apps.tcnj.edu" method="post" enctype="text/plain">
+<p>Thank you for checking out my website. Please contact me to learn more.</p>
+
+
+
+<div class="container">
+<div class="row">
+<header class="col-md-12">
+<h1>Feedback Form</h1>
+</header>
+</div>
+
+<div class="row">
+<article class="col-md-12">
+<p class="message"></p>
+<form action="http://www.tcnj.edu/~grossma6/jsonpform2email.php">
 <div class="form-group">
 <label>From</label>
 <input class="form-control" type="text" name="from" placeholder="Enter email">
@@ -45,14 +56,44 @@
 <label>Message</label>
 <textarea class="form-control" name="message"></textarea>
 </div>
-<input type="submit" class="btn btn-default" name="submit" value="Submit">
+<input type="submit" class="btn btn-default" name="submit" value="Submit Feedback">
 </form>
 
-
-
+</article>
 </div>
+
+<div class="row">
+<footer></footer>
+</div>
+</div>
+
 <script src="https://code.jquery.com/jquery.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-</body>
-</html>
+
+<script>
+
+/* jsonp form to email function */
+$('form').submit(function() {
+  var url = $(this).attr("action");
+  var params = $(this).serialize();
+  
+  $.getJSON(url + '?' + params + "&callback=?", function(data) {
+   
+switch(data[0].status){
+case 'success':
+$('.message').addClass("text-success").html('Thank you, <strong>' + data[0].from + '</strong>, for sending us feedback!');
+$('form')[0].reset();
+break;
+case 'invalid email':
+$('.message').removeClass("text-success").addClass("text-danger").html('Please provide a valid email address!');
+break;
+case 'failed to send':
+$('.message').removeClass("text-success").addClass("text-danger").html('Failed to send email.');
+break;
+}
+  });
+  return false;
+});
+
+</script>
