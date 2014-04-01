@@ -25,7 +25,7 @@ $callback = $_GET["callback"]; // javascript callback function
 // message lines should not exceed 70 characters (PHP rule), so wrap it
 $message = wordwrap($message, 70);
 
-// send mail ( to, subjext, message, headers )
+// send mail ( to, subject, message, headers )
 if(mail($to_email,$subject,$message,"From: $from\n")){
 echo $callback."([{status:'success',from:'".$from."',subject:'".$subject."',message:'".$message."'}])";
 } else {
