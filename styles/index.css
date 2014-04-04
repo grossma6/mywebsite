@@ -1,3 +1,11 @@
+#bg { background-image: url(https://drive.google.com/uc?id=0B6HcEl1I72V1MmRNRThpWW9kRmc);
+background-repeat: no-repeat; /* don't tile the image */
+background-position: center;
+background-size:cover;
+height: 900px;
+    }
+
+
 <style type="text/css">
 	.map_image { display: block; width: 800px; height: 600px; position: relative; background-position: 0 0; background-repeat: no-repeat; }
 	.map_image .map_link { display: block; position: absolute; text-indent: -999em; overflow: hidden; }
