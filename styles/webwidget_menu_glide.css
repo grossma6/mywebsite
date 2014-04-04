@@ -24,7 +24,7 @@
 .webwidget_menu_glide .webwidget_menu_glide_sprite{
     width: 100px;
     height: 20px;
-    background-color: fuchsia/* change color here */;
+    background-color: #98bf21;
     position: absolute;
     -moz-border-radius-topright: 10px;
     -moz-border-radius-topleft: 10px;
