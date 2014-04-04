@@ -1,5 +1,9 @@
-.webwidget_menu_glide{
+#webwidget_menu_glide {
+    width: 90%;
     margin: 0 auto;
+}
+
+.webwidget_menu_glide{
     padding: 5px;
     -moz-border-radius-topright: 10px;
     -moz-border-radius-topleft: 10px;
