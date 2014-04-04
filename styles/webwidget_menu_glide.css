@@ -1,4 +1,5 @@
 .webwidget_menu_glide{
+    margin: 0 auto;
     padding: 5px;
     -moz-border-radius-topright: 10px;
     -moz-border-radius-topleft: 10px;
@@ -23,7 +24,7 @@
 .webwidget_menu_glide .webwidget_menu_glide_sprite{
     width: 100px;
     height: 20px;
-    background-color: fuchsia;
+    background-color: fuchsia/* change color here */;
     position: absolute;
     -moz-border-radius-topright: 10px;
     -moz-border-radius-topleft: 10px;
