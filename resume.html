@@ -34,13 +34,13 @@
 <div id="webwidget_menu_glide" class="webwidget_menu_glide">
 <div class="webwidget_menu_glide_sprite"></div>
 <ul>
-<li><a href="http://www.htmldrive.net/">Home</a></li>
+<li><a href="index.html" title="Back to Main Menu">Main Menu</a></li>
 
-<li><a href="http://www.htmldrive.net/">News</a></li>
-<li class="current"><a href="http://www.htmldrive.net/">About</a></li>
-<li><a href="http://www.htmldrive.net/">Contact</a></li>
+<li><a href="portfolio.html" title="Back to My Portfolio">My Portfolio</a></li>
 
-<li><a href="http://www.htmldrive.net/">More...</a></li>
+<li><a href="articles.html" title="Back to My Articles">My Articles</a></li>
+
+<li><a href="contact.html" title="Back to Contact Me">Contact Me</a></li>
 </ul>
 <div style="clear: both"></div>
 
@@ -67,6 +67,14 @@
 <script src="https://code.jquery.com/jquery.js"></script>
 <!-- Latest compiled and minified JavaScript -->
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+
+<script language="javascript" type="text/javascript">
+$(function() {
+$("#webwidget_menu_glide").webwidget_menu_glide({menu_width:"100", menu_height:"30", menu_text_size:"15", menu_text_color:"#CCC", menu_sprite_color:"#666", menu_background_color:"#000", menu_margin:"5", sprite_speed:"normal", container:"webwidget_menu_glide" });
+});
+</script>
+
 
 </body>
 
