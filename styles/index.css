@@ -7,7 +7,9 @@ font-family:Arial, Helvetica, sans-serif;
 background-repeat: no-repeat; /* don't tile the image */
 background-position: center;
 background-size:cover;
-height: 900px;
+height: 700px;
+width: 90%;
+margin: 10px auto 10px auto;
     }
 
 
