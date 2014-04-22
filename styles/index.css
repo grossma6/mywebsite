@@ -3,12 +3,15 @@ font-family:Arial, Helvetica, sans-serif;
 }
 
 
-#bg { background-image: url(https://drive.google.com/uc?id=0B6HcEl1I72V1MmRNRThpWW9kRmc);
-background-repeat: no-repeat; /* don't tile the image */
+#bg {
+	/*
+background-repeat: no-repeat;  don't tile the image
 background-position: center;
 background-size:cover;
+*/
+width:960px;
 height: 700px;
-    }
+}
 
 
 <style type="text/css">
