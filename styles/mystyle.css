@@ -26,8 +26,8 @@ margin-left:100px;
 P { text-align: center }
 h1 { text-align: center; margin-top:0; }
 
-#wrapper {
-    width: 90%;
+.container {
+    padding: 10px;/*width: 90%;
     padding-left: 100px;
     padding-top:50px;
     padding-bottom: 50px;
