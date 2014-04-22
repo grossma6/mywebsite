@@ -19,8 +19,8 @@ body
 {
 background-color:#003366;
 margin-bottom:100px;
-margin-right:80px;
-margin-left:80px;
+margin-right:100px;
+margin-left:100px;
 }
 
 P { text-align: center }
@@ -28,7 +28,7 @@ h1 { text-align: center; margin-top:0; }
 
 #wrapper {
     width: 90%;
-    margin: 10px auto 10px auto;
+    margin: 10px, 50px, 10px, 50px;
     /* top, right, bottom, left */
     background:#ffffff;
 }
