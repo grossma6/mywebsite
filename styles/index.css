@@ -16,8 +16,10 @@ background-size:cover;
 */
 width:800px;
 height: 600px;
-margin: 25px auto;
+text-align: center;
+/*margin: 25px auto;*/
 }
+
 
 
 .map_image { display: block; width: 800px; height: 600px; position: relative; background-position: 0 0; background-repeat: no-repeat; }
