@@ -21,17 +21,17 @@ body {
 }
 
 
-<style>
+
 .map_image { display: block; width: 800px; height: 600px; position: relative; background-position: 0 0; background-repeat: no-repeat; }
 .map_image .map_link { display: block; position: absolute; text-indent: -999em; overflow: hidden; }
 .map_image #map_link_0 { width: 123px; height: 124px; top: 120px; left: 280px; }
 .map_image #map_link_1 { width: 88px; height: 77px; top: 261px; left: 597px; }
 .map_image #map_link_2 { width: 219px; height: 252px; top: 108px; left: 14px; }
 .map_image #map_link_3 { width: 86px; height: 38px; top: 348.0000305175781px; left: 401px; }
-</style>
 
-h1 {
-	color:#ffffff;
+
+#bg h1 {
+color:#ffffff;
 text-align:right;
 font-size:20px;
 }
