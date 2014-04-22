@@ -29,7 +29,7 @@ h1 { text-align: center; margin-top:0; }
 #wrapper {
     width: 90%;
     padding-left: 100px;
-    padding-top:0px;
+    padding-top:50px;
     padding-bottom: 50px;
     margin: 10px, auto 10px, auto;
     /* top, right, bottom, left */
