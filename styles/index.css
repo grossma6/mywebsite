@@ -17,9 +17,7 @@ height: 700px;
 body
 {
 background-color:#003366;
-margin-bottom:100px;
-margin-right:100px;
-margin-left:100px;
+margim: 10px auto; 
 }
 
 
