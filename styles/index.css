@@ -4,7 +4,10 @@ font-family:Arial, Helvetica, sans-serif;
 
 
 #bg {
-	/*
+
+background-color:#003366;
+margin: 10px auto; 
+/*
 background-repeat: no-repeat;  don't tile the image
 background-position: center;
 background-size:cover;
@@ -14,11 +17,7 @@ height: 700px;
 }
 
 
-body
-{
-background-color:#003366;
-margin: 10px auto; 
-}
+
 
 
 
