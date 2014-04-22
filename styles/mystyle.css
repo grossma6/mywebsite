@@ -28,7 +28,7 @@ h1 { text-align: center; margin-top:0; }
 
 #wrapper {
     width: 90%;
-    margin: 10px auto 10px auto;
+    margin: 10px, 50px, 10px, 50px;
     /* top, right, bottom, left */
     background:#ffffff;
 }
