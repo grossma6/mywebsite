@@ -10,8 +10,11 @@ background-size:cover;
 height: 900px;
     }
 
-h1 {color:#000000;
-font-size:40px;}
+h1 {
+    color:#000000;
+    font-size:40px;
+    margin-top:0; 
+}
 
 
 body
@@ -23,7 +26,6 @@ margin-left:100px;
 }
 
 P { text-align: center }
-h1 { text-align: center; margin-top:0; }
 
 .container {
     padding-left: 185px;
