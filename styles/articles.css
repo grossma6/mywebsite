@@ -70,6 +70,7 @@ a.articles{
 
 aside {
      float: right;
+     padding-right:50px;
 }
  li {
     text-align: left;
