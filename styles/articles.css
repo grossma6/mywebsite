@@ -69,7 +69,7 @@ a.articles{
 }
 
 
-/* li {
-    list-style-type:none;
-} 
-*/
+ li {
+    text-align: center;
+ }
+
