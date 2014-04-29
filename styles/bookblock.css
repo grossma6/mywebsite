@@ -209,3 +209,7 @@
 	display: block;
 	position: relative;
 }
+
+nav {
+	text-align: center;
+}
