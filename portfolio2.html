@@ -46,7 +46,7 @@
 <header class="col-md-12">
 <h1>My Portfolio</h1>
 <p>Here is a portfolio of some of my designs. Enjoy.</p>
-<a href="http://tympanus.net/codrops/2012/09/03/bookblock-a-content-flip-plugin/" title="bookblock tutorial">Bookblock Tutorial</a> 
+<!-- <a href="http://tympanus.net/codrops/2012/09/03/bookblock-a-content-flip-plugin/" title="bookblock tutorial">Bookblock Tutorial</a> --> 
 </header>
 </div>
 
@@ -54,19 +54,17 @@
 
 <div id="bb-bookblock" class="bb-bookblock">
 <div class="bb-item">
-<!-- custom content -->
-<h1>Page 0</h1>
 <img src="https://drive.google.com/uc?id=0B6HcEl1I72V1eGw5cUQycTMtUDg" alt="Photo One" title="Photo One">
+<h1>Page 0</h1>
 </div>
 
 <div class="bb-item">
-<!-- ... -->
-<h1>Page 1</h1>
 <img src="https://drive.google.com/uc?id=0B6HcEl1I72V1YVQxNHBVUEF0bkE" alt="Photo Two" title="Photo Two">
+<h1>Page 1</h1>
 </div>
     
 <div class="bb-item">
-<!-- ... -->
+<!-- custom content... -->
 <h1>Page 2</h1>
 </div>
     
@@ -94,7 +92,7 @@
 <!-- jQuery & Bootstrap -->
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script src="js/jquery.bookblock.js"></script>
+<script src=".js/jquery.bookblock.js"></script>
 <script>
 var Page = (function() {
 
@@ -136,6 +134,31 @@ return { init : init };
 Page.init();
 </script>
 
+<script src="https://code.jquery.com/jquery.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+<script type="text/javascript" src="js/webwidget_menu_glide.js"></script>
+<script language="javascript" type="text/javascript">
+    $(function(){
+        $("#webwidget_menu_glide").webwidget_menu_glide({
+            menu_width:"100",
+            menu_height:"30",
+            menu_text_size:"15",
+            menu_text_color:"#CCC",
+            menu_sprite_color:"#666",
+            menu_background_color:"#000",
+            menu_margin:"5",
+            sprite_speed:"normal"
+        });
+    });
+</script>
 </body>
+
+
 </html>
+
+
+
+
 
