@@ -72,50 +72,7 @@
 <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="./js/wowslider.js"></script>
 	<script type="text/javascript" src="./js/script.js"></script>
-<script>
-var Page = (function() {
 
-var config = {
-$bookBlock : $( '#bb-bookblock' ),
-$navNext : $( '#bb-nav-next' ),
-$navPrev : $( '#bb-nav-prev' )
-},
-
-init = function() {
-config.$bookBlock.bookblock( {
-orientation : 'horizontal',
-speed : 700
-} );
-initEvents();
-},
-
-initEvents = function() {
-
-var $slides = config.$bookBlock.children();
-
-// add navigation events
-config.$navNext.on( 'click touchstart', function() {
-config.$bookBlock.bookblock( 'next' );
-return false;
-} );
-
-config.$navPrev.on( 'click touchstart', function() {
-config.$bookBlock.bookblock( 'prev' );
-return false;
-} );
-
-};
-
-return { init : init };
-
-})();
-
-Page.init();
-</script>
-
-<script src="https://code.jquery.com/jquery.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 
 <script type="text/javascript" src="js/webwidget_menu_glide.js"></script>
 <script language="javascript" type="text/javascript">
